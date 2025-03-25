@@ -1,0 +1,93 @@
+Running test with user stanislavrezmerita
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+CMake Error: Unable to open check cache file for write. /home/stanislavrezmerita/assignment-1-stagrf/build/CMakeFiles/cmake.check_cache
+CMake Error: Cannot open file for write: /home/stanislavrezmerita/assignment-1-stagrf/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/compiler_depend.make.tmp0f9c5
+CMake Error: : System Error: Permission denied
+make[2]: *** [assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make:109: assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend] Error 2
+make[1]: *** [CMakeFiles/Makefile2:155: assignment-autotest/Unity/src/CMakeFiles/unity.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read stagrf from conf/username.txt
+/home/stanislavrezmerita/assignment-1-stagrf/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/assignment-1-stagrf/assignment-autotest/test/assignment1 ~/assignment-1-stagrf
+~/assignment-1-stagrf/finder-app ~/assignment-1-stagrf/assignment-autotest/test/assignment1 ~/assignment-1-stagrf
+Two arguments are required
+Two arguments are required
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/P1VdpsB1RJIfdfIC1EotCjLAIK0izsIi
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+File is created and been written
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
